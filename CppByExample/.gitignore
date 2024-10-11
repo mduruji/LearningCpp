@@ -1,0 +1,58 @@
+# Build artifacts
+/bin/
+/obj/
+
+# Compiled Object files
+*.o
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.dylib
+*.so
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Generated files
+*.ilk
+*.pdb
+*.mdb
+*.exp
+*.manifest
+*.tlog
+*.idb
+*.iobj
+*.ipdb
+
+# Dependency files
+*.d
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Visual Studio files
+*.suo
+*.user
+*.ncb
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
