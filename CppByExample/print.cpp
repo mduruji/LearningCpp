@@ -1,13 +1,14 @@
 #include <iostream>
+using namespace std;
 
 template <typename ...Args>
 void print(const Args& ...args) {
-    (std:: cout << ... << args);
+    (cout << ... << args);
 }
 
 template <typename ...Args>
 void println(const Args& ...args) {
-    (std:: cout << ... << args) << "\n";
+    (cout << ... << args) << "\n";
 }
 
 int main(){
@@ -87,17 +88,17 @@ int main(){
     std:: cout << 60 + nums[8] << "\n";
     std:: cout << "people want to see your vision \n";
     std:: cout << "👾" << "\n";
-    std:: cout << "72" << "\n";
-    std:: cout << "73" << "\n";
-    std:: cout << "74" << "\n";
-    std:: cout << "75" << "\n";
-    std:: cout << "76" << "\n";
-    std:: cout << "77" << "\n";
-    std:: cout << "78" << "\n";
-    std:: cout << "79" << "\n";
-    std:: cout << "80" << "\n";
-    std:: cout << "81" << "\n";
-    std:: cout << "I can see why people don't like c++ \n" << "I like it tho \n";
+    cout << "72" << "\n";
+    cout << "73" << "\n";
+    cout << "74" << "\n";
+    cout << "75" << "\n";
+    cout << "76" << "\n";
+    cout << "77" << "\n";
+    cout << "78" << "\n";
+    cout << "79" << "\n";
+    cout << "80" << "\n";
+    cout << "81" << "\n";
+    cout << "I can see why people don't like c++ \n" << "I like it tho \n";
     print("🥸");
     std:: cout << "\nPoquito a poco" << "\n";
     print("made my own print function");
